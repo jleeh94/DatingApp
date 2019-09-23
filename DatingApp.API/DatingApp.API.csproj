@@ -1,12 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-      <UserSecretsId>1928s9a0s-u39jakdki-jabas-anaii-ih128h8jf9nj</UserSecretsId>
+    <UserSecretsId>1928s9a0s-u39jakdki-jabas-anaii-ih128h8jf9nj</UserSecretsId>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App"/>
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All"/>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.2"/>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0"/>
   </ItemGroup>
 </Project>
